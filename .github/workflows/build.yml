@@ -1,0 +1,8 @@
+name: Print Node Version
+on: push
+jobs:
+  print-version:
+    runs-on: windows-latest,ubuntu-latest
+    steps:
+      - name: Print Node Version
+        run: node -v
