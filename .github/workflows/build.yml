@@ -5,4 +5,4 @@ jobs:
     runs-on: windows-latest,ubuntu-latest
     steps:
       - name: Print Node Version
-        run: node -v
+      - run: node -v
